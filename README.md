@@ -1,67 +1,100 @@
-HR ANALYTICS DASHBOARD (POWER BI)
+📊 HR Analytics Dashboard – Power BI
+🧾 Project Overview
 
-================= 1. PROJECT OVERVIEW
-This project aims to analyze
-Human Resources (HR) data using Power BI in order to monitor employee
-performance, workforce structure, and key HR indicators.
+This project focuses on analyzing Human Resources (HR) data using Power BI.
+The objective is to monitor:
 
-The dashboard provides insights into employee distribution, turnover,
-and retention to support data-driven decision-making.
+Employee performance
+Workforce structure
+Key HR metrics
 
-================= 2. OBJECTIVES
-======================================== - Analyze employee data
-effectively - Build a Star Schema data model - Create dynamic DAX
-measures - Design an interactive and professional dashboard
+The dashboard provides actionable insights into:
 
-================= 3. DATA PROCESSING STEPS
-========================================
+📊 Employee distribution
+🔄 Turnover
+📈 Retention
 
-3.1 Data Import - Imported CSV files into Power BI - Used Power Query
-for data loading
+➡️ Supporting data-driven decision-making.
 
-3.2 Data Cleaning - Checked and corrected data types - Handled missing
-values - Standardized columns
+🎯 Objectives
 
-3.3 Data Modeling - Created a Fact Table: people_fact - Created
-Dimension Tables: * Department * Job Level * Education * Location *
-Marital Status - Established relationships (Many-to-One) - Built a Star
-Schema model
+The main goals of this project are:
 
-================= 4. DAX MEASURES
-========================================
+📊 Analyze employee data effectively
+🏗️ Build a Star Schema data model
+🧮 Create dynamic DAX measures
+🎨 Design an interactive and professional dashboard
+⚙️ Data Processing Steps
+📥 1. Data Import
+Imported CSV files into Power BI
+Used Power Query for data loading
+🧹 2. Data Cleaning
+Checked and corrected data types
+Handled missing values
+Standardized columns
+🏗️ 3. Data Modeling
+Created Fact Table: people_fact
+Created Dimension Tables:
+Department
+Job Level
+Education
+Location
+Marital Status
+Established relationships (Many-to-One)
+Built a Star Schema model
+🧮 DAX Measures
+👥 All Employees
 
-All Employees: Counts unique employees
+Counts the number of unique employees:
+
 DISTINCTCOUNT(people_fact[Employee ID])
+📊 Headcount
 
-Headcount: Number of active employees based on hire and termination
-dates
+Number of active employees based on hire and termination dates.
 
-Employees Left: Number of employees who left the company
+🚪 Employees Left
 
-Turnover: Employees Left / Headcount
+Number of employees who left the company.
 
-================= 5. DASHBOARD STRUCTURE
-========================================
+🔄 Turnover
+Employees Left / Headcount
+📊 Dashboard Structure
+📄 Page 1: Headcount
+KPI: Total Headcount
+Distribution by Department & Job Level
+Demographics:
+Gender
+Age
+Education
+🌍 Geographic analysis (Map)
+📄 Page 2: Retention
+📈 Retention KPI
+📊 Min/Max comparison
+Breakdown by:
+Department
+Job Level
+📄 Page 3: Turnover
+🔄 Turnover KPI
+Employee exit analysis
+📉 Termination reasons
+⏳ Time-based trends
+🧠 Key Concepts Used
+🧮 DAX (CALCULATE, FILTER, DISTINCTCOUNT)
+🔍 Filter Context
+⭐ Star Schema
+🔗 Data Relationships (Many-to-One)
+🛠️ Tools Used
+📊 Power BI
+🔄 Power Query
+🧮 DAX
+✅ Conclusion
 
-Page 1: Headcount - KPI: Total Headcount - Distribution by Department
-and Job Level - Demographics (Gender, Age, Education) - Geographic
-analysis (Map)
+This project demonstrates how raw HR data can be transformed into clear, interactive, and actionable insights using Power BI.
 
-Page 2: Retention - Retention KPI - Comparison analysis (min/max) -
-Breakdown by Department and Job Level
+It highlights the importance of:
 
-Page 3: Turnover - Turnover KPI - Employee exit analysis - Termination
-reasons - Time-based trends
+Data modeling
+DAX calculations
+Dashboard design
 
-================= 6. KEY CONCEPTS USED
-======================================== - DAX (CALCULATE, FILTER,
-DISTINCTCOUNT) - Filter Context - Star Schema - Data Relationships
-(Many-to-One)
-
-================= 7. TOOLS USED
-======================================== - Power BI - Power Query - DAX
-
-================= 8. CONCLUSION
-======================================== This project demonstrates how
-raw HR data can be transformed into actionable insights using Power BI
-through data modeling, DAX calculations, and interactive visualizations.
+➡️ Delivering valuable insights for HR decision-making.
