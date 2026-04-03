@@ -54,3 +54,58 @@ The dashboard provides insights into:
 
 ### All Employees
 Counts unique employees:
+
+### Headcount
+Number of active employees based on hire and termination dates.
+
+### Employees Left
+Number of employees who left the company.
+
+### Turnover
+
+
+---
+
+## 📊 Dashboard Structure
+
+### Page 1: Headcount
+- KPI: Total Headcount  
+- Distribution by Department and Job Level  
+- Demographics (Gender, Age, Education)  
+- Geographic analysis (Map)  
+
+### Page 2: Retention
+- Retention KPI  
+- Min/Max comparison  
+- Breakdown by Department and Job Level  
+
+### Page 3: Turnover
+- Turnover KPI  
+- Employee exit analysis  
+- Termination reasons  
+- Time-based trends  
+
+---
+
+## 🧠 Key Concepts Used
+- DAX (CALCULATE, FILTER, DISTINCTCOUNT)  
+- Filter Context  
+- Star Schema  
+- Data Relationships (Many-to-One)  
+
+---
+
+## 🛠️ Tools Used
+- Power BI  
+- Power Query  
+- DAX  
+
+---
+
+## ✅ Conclusion
+This project demonstrates how raw HR data can be transformed into actionable insights using Power BI.
+
+It highlights:
+- Data modeling  
+- DAX calculations  
+- Interactive dashboards  
